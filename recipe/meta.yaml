@@ -1,5 +1,5 @@
 {% set name = "tailestim" %}
-{% set version = "0.1.7" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tailestim-{{ version }}.tar.gz
-  sha256: 3b051609837907f49f2c411d7484aae4307af2592662b1f2620f61b4af17ddac
+  sha256: 964d6b43b1f75c41b4fceb2e0ee82ae23b94133815b516577e6ed0e0edda6b0e
 
 build:
   noarch: python
