@@ -1,5 +1,5 @@
 {% set name = "tailestim" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tailestim-{{ version }}.tar.gz
-  sha256: 708303a5bef8a39f5ea5be9dc9506298e0025d7717c30f73de86845c0986e9d8
+  sha256: 38921b348c66c801f50962eccf1bd3e9b8fbe54f16418fac616232d01944253b
 
 build:
   noarch: python
@@ -20,6 +20,8 @@ requirements:
     - hatchling
     - pip
   run:
+    - matplotlib
+    - matplotlib-base >=3.5
     - python >={{ python_min }}
     - numpy >=1.19
 
