@@ -3,7 +3,7 @@ About tailestim-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tailestim-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mu373/tailestim
+Home: https://tailestim.readthedocs.io/
 
 Package license: MIT
 
